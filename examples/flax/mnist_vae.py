@@ -12,7 +12,7 @@ import optax
 import typer
 from datasets import load_dataset
 from flax import linen as nn
-from jax._src.numpy.lax_numpy import ndarray
+# from jax._src.numpy.lax_numpy import ndarray
 from tensorboardX.writer import SummaryWriter
 
 import elegy as eg
